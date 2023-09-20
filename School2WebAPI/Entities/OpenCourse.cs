@@ -14,7 +14,7 @@
 
         public Teacher Teacher { get; set; } = null!;
 
-        //relaciones de la agregacion 
+        //relaciones m-m de la agregacion    Student-opencourse c/tablaR Inscription    (m-m) c/NAVEGACION y FK
 
         public List<Student> Students { get; } = new();
 

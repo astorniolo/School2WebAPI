@@ -7,7 +7,7 @@
         public string Description { get; set; }
 
 
-        //relacion a un Course (1-1)  
+        //relacion a un Course (1-1) OBLIGATORIA 
 
         public int CourseId { get; set; } // clave foranea
 

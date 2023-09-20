@@ -10,6 +10,7 @@
 
         public string Phone { get; set; }
 
+        // relacion a muchos Student-Opencurse con tablaR Inscription (m-m) c/NAVEGACION y FK
         public List<OpenCourse> OpenCourses { get; } = new();
 
         public List<Inscription> Inscriptions { get; } = new();
